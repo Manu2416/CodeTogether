@@ -7,5 +7,9 @@
 </script>
 
 <style>
+h1{
+    background-color: black;
+    color: white;
+}
 
 </style>
