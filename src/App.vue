@@ -1,5 +1,6 @@
 <template>
  <h1>Hola mundo</h1>
+ <p>Probando el vue</p>
 </template>
 
 <script>
