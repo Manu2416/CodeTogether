@@ -1,6 +1,7 @@
 <template>
- <h1>Hola mundo</h1>
- <p>Probando el vue</p>
+ <header>
+   <h1 id="nombre"> CapyDesign</h1>
+ </header>
 </template>
 
 <script>
@@ -8,9 +9,14 @@
 </script>
 
 <style>
-h1{
-    background-color: black;
-    color: white;
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: linear-gradient(pink, blue);
+  width: 100%;
+  height: 100px;
 }
 
 </style>
