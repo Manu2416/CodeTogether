@@ -1,4 +1,6 @@
 <template>
+ <h1>Hola mundo</h1>
+ <p>Probando el vue</p>
  <header>
    <h1 id="nombre"> CapyDesign</h1>
  </header>
