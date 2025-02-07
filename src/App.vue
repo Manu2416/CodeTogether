@@ -21,12 +21,13 @@
       <article class="titulo">
         <p class="t_1">Welcome to</p>
         <p class="t_2">Innova.</p>
-      </article>
-
-      <article class="capa_logo">
-
         <img src="@/assets/fotos/logo_morado.png" alt="Logo Morado">
       </article>
+
+      
+
+        
+      
    </section>
   </main>
 
@@ -120,7 +121,7 @@ main{
 
   font-family: Arial, sans-serif;
   font-weight: bold;
-  z-index: 20;
+  z-index: 10;
   padding: 20px;
   
   
@@ -130,27 +131,27 @@ main{
   border: solid rgb(219, 33, 33) 1px;
   margin-top: -150px;
   font-size: 25vh;
+  z-index: 20;
   
 }
 .t_1{
   margin-top: -1px;
   border: solid rgb(219, 33, 33) 1px;
   font-size: 25vh;
+  z-index: 20;
 }
 
 
-.capa_logo {
+
+
+.titulo img {
   position: absolute;
-  z-index: 10;
-  /* opacity: 0; */
-  
-  /* animation: apareceLogo 5s forwards; */
-}
-
-.capa_logo img {
-  width: 840px;
-  top: 190px;
-  left: -90px;
+  width: 25v;
+  z-index: 15;
+  height: 25vh;
+  top: 370px;
+  left: 15%;
+  animation: apareceLogo 2s ease;
 }
 .t_1 {
   animation: apareceTitulo 2s ease forwards;
@@ -191,19 +192,16 @@ footer {
 
 @keyframes apareceLogo {
   0% {
-    left: -100%;
+    left: 0;
     opacity: 0;
+    
   }
 
-  50% {
-    left: 50%;
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
+ 
 
   100% {
     left: 100%;
-    opacity: 0;
+    opacity: 1;
   }
 
 
